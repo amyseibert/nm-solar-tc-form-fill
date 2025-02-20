@@ -35,41 +35,51 @@
     </div>
 </nav>
 
-<section id="welcome-section" class="bg-black text-white p-15">
+<section id="welcome-section" class="text-white p-15 relative w-full h-screen">
+    <div class="absolute inset-0 bg-cover bg-center" style="background-image: url(public/panels-2.png);">
+        <div class="absolute inset-0 bg-gradient-to-b from-black/50 to-transparent"></div>
+    </div>
+<div class="relative z-10">
     <h1 class="md:text-4xl text-2xl text-center font-bold">Simplify Solar Tax Credit Docs</h1>
     <p class="text-center max-md:text-sm p-3">Complete, generate, and download state tax credit forms for your customers in minutes.</p>
     <button class="bg-white text-black p-2 block m-auto md:mt-95 mt-90 md:px-10 px-35 rounded-sm">Get Started!</button>
+</div>
 </section>
 
-<section id="how-it-works-section" class="bg-gray-400 text-black p-30">
+<section id="how-it-works-section" class="text-white p-30 relative w-full md:h-screen">
+<div class="absolute inset-0 bg-cover bg-center" style="background-image: url(public/laptop.png);">
+    <div class="absolute inset-0 bg-gradient-to-b from-black/50 to-transparent"></div>
+</div>
+<div class="relative z-10">
     <h1 class="md:text-3xl text-2xl font-bold text-center">How it Works</h1>
 
     <div class="md:flex md:gap-20 pt-60 md:px-5">
         <div class="flex flex-col items-center basis-1/3">
-            <div class="pb-5">
-              <img class="rounded-full" src="/pen.png" alt="Pen" />
+            <div class="pb-5 justify-items-center">
+              <img class="rounded-full w-2/3" src="/pen.png" alt="Pen" />
             </div>
-            <p class="md:text-2xl text-xl font-bold text-center">Complete</p>
-            <p class="py-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <p class="md:text-2xl text-xl font-bold text-center">Complete</p>
+              <p class="py-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
         <div class="flex flex-col items-center basis-1/3">
-            <div class="pb-5">
-              <img class="rounded-full" src="/document.png" alt="Document" />
+            <div class="pb-5 justify-items-center">
+              <img class="rounded-full w-2/3" src="/document.png" alt="Document" />
             </div>
             <p class="md:text-2xl text-xl font-bold text-center">Generate</p>
             <p class="py-5">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
         <div class="flex flex-col items-center basis-1/3">
-            <div class="pb-5">
-                <img class="rounded-full" src="/send-doc.png" alt="Send" />
+            <div class="pb-5 justify-items-center">
+                <img class="rounded-full w-2/3" src="/send-doc.png" alt="Send" />
             </div>
             <p class="md:text-2xl text-xl font-bold text-center">Download and Send</p>
             <p class="py-5">Duis aute irure dolor in reprehend in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
         </div>
     </div>
+</div>
 </section>
 
-<section id="create-docs-title-section" class="bg-black text-white p-30">
+<section id="create-docs-title-section" class="bg-black text-white p-20">
     <h1 class="md:text-3xl text-2xl font-bold text-center">Create Your Documents</h1>
 </section>
 
@@ -228,9 +238,47 @@
     </form>
 </section>
 
-<section id="next-steps-section" class="bg-gray-400 text-black p-30">
+<section id="buttons" class="bg-white p-10">
+    <div class="flex justify-center">
+    <button class="relative inline-flex items-center justify-center p-2.5 mb-2 me-20 overflow-hidden text-xl font-bold text-gray-900 rounded-lg group bg-gradient-to-br from-black to-white group-hover:from-black group-hover:to-white hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-yellow-500 dark:focus:ring-yellow-500">
+<span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-transparent group-hover:dark:bg-transparent">
+Generate Documents
+</span>
+    </button>
+    <button class="relative inline-flex items-center justify-center p-2.5 mb-2 me-2 overflow-hidden text-xl font-bold text-gray-900 rounded-lg group bg-gradient-to-br from-black to-white group-hover:from-black group-hover:to-white hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-yellow-500 dark:focus:ring-yellow-500">
+<span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-transparent group-hover:dark:bg-transparent">
+Download Documents
+</span>
+    </button>
+    </div>
+</section>
+
+<section id="next-steps-section" class="text-white p-30 relative w-full md:h-screen">
+    <div class="absolute inset-0 bg-cover bg-center" style="background-image: url(public/solar-panels.png);">
+        <div class="absolute inset-0 bg-gradient-to-b from-black/50 to-transparent"></div>
+    </div>
+    <div class="relative z-10">
     <h1 class="md:text-3xl text-2xl font-bold text-center">Next Steps</h1>
 
+    <div class="md:flex md:gap-20 pt-60 md:px-5">
+        <div class="flex flex-col items-center basis-1/3">
+            <p class="md:text-2xl text-xl font-bold text-center">Complete</p>
+            <p class="py-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="flex flex-col items-center basis-1/3">
+            <p class="md:text-2xl text-xl font-bold text-center">Generate</p>
+            <p class="py-5">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <div class="flex flex-col items-center basis-1/3">
+            <p class="md:text-2xl text-xl font-bold text-center">Download and Send</p>
+            <p class="py-5">Duis aute irure dolor in reprehend in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        </div>
+    </div>
+    </div>
+</section>
+
+<section id="footer" class="bg-black text-white p-5">
+    <h1 class="text-center">Footer</h1>
 </section>
 
 <script type="module" src="/src/main.js"></script>
