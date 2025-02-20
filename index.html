@@ -19,16 +19,16 @@
         <div class="hidden w-full md:block md:w-auto" id="navbar-default">
             <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border bg-black md:flex-row justify-center md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-black">
                 <li>
-                    <a href="#" class="block py-2 px-3 text-white hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-yellow-500 md:p-0">Home</a>
+                    <a href="#welcome-section" class="block py-2 px-3 text-white hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-yellow-500 md:p-0">Home</a>
                 </li>
                 <li>
-                    <a href="#" class="block py-2 px-3 text-white hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-yellow-500 md:p-0">How it Works</a>
+                    <a href="#how-it-works-section" class="block py-2 px-3 text-white hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-yellow-500 md:p-0">How it Works</a>
                 </li>
                 <li>
-                    <a href="#" class="block py-2 px-3 text-white hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-yellow-500 md:p-0">Create Docs</a>
+                    <a href="#create-docs-title-section" class="block py-2 px-3 text-white hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-yellow-500 md:p-0">Create Docs</a>
                 </li>
                 <li>
-                    <a href="#" class="block py-2 px-3 text-white hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-yellow-500 md:p-0">Next Steps</a>
+                    <a href="#next-steps-section" class="block py-2 px-3 text-white hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-yellow-500 md:p-0">Next Steps</a>
                 </li>
             </ul>
         </div>
@@ -42,7 +42,7 @@
 <div class="relative z-10">
     <h1 class="md:text-4xl text-2xl text-center font-bold">Simplify Solar Tax Credit Docs</h1>
     <p class="text-center max-md:text-sm p-3">Complete, generate, and download state tax credit forms for your customers in minutes.</p>
-    <button class="bg-white text-black p-2 block m-auto md:mt-95 mt-90 md:px-10 px-35 rounded-sm">Get Started!</button>
+    <button onclick="location.href='#create-docs-title-section'" class="bg-white text-black p-2 block m-auto focus:ring-4 focus:ring-yellow-500 md:mt-95 mt-90 md:px-10 px-35 rounded-sm">Get Started!</button>
 </div>
 </section>
 
@@ -53,27 +53,27 @@
 <div class="relative z-10">
     <h1 class="md:text-3xl text-2xl font-bold text-center">How it Works</h1>
 
-    <div class="md:flex md:gap-20 pt-60 md:px-5">
-        <div class="flex flex-col items-center basis-1/3">
+    <div class="md:flex md:gap-20 md:pt-60 pt-30 md:px-5">
+        <div class="flex flex-col items-center basis-1/3 md:pb-0 pb-20">
             <div class="pb-5 justify-items-center">
               <img class="rounded-full w-2/3" src="/pen.png" alt="Pen" />
             </div>
               <p class="md:text-2xl text-xl font-bold text-center">Complete</p>
-              <p class="py-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <p class="py-5 text-lg">Enter information about your customer and their installed system into our simple form fields.</p>
         </div>
-        <div class="flex flex-col items-center basis-1/3">
+        <div class="flex flex-col items-center basis-1/3 md:pb-0 pb-20">
             <div class="pb-5 justify-items-center">
               <img class="rounded-full w-2/3" src="/document.png" alt="Document" />
             </div>
             <p class="md:text-2xl text-xl font-bold text-center">Generate</p>
-            <p class="py-5">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p class="py-5 text-lg">Our system instantly uses that information to fill out the required documents for the NM State Solar Tax Credit, including instructions for your customer on how to submit them.</p>
         </div>
         <div class="flex flex-col items-center basis-1/3">
             <div class="pb-5 justify-items-center">
                 <img class="rounded-full w-2/3" src="/send-doc.png" alt="Send" />
             </div>
             <p class="md:text-2xl text-xl font-bold text-center">Download and Send</p>
-            <p class="py-5">Duis aute irure dolor in reprehend in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <p class="py-5 text-lg">Download the completed forms and send them to your customer, ready to submit!</p>
         </div>
     </div>
 </div>
@@ -85,43 +85,37 @@
 
 <section id="customer-info-section" class="bg-white text-black px-20 py-10">
     <h1 class="md:text-3xl text-2xl font-bold text-left pb-10">Customer Info</h1>
-
     <form class="">
-<!--        <label class="block my-2 text-sm font-medium text-gray-900 ">Placeholder Label</label>-->
-<!--        <div class="">-->
-<!--            <input type="text" id="" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 block w-full ps-5 p-2.5" placeholder="Placeholder Label" />-->
-<!--        </div>-->
-
 <div class="md:flex md:gap-40 w-full">
         <div class="flex flex-col basis-1/3 pb-10">
-        <label class=" my-2 text-sm font-medium text-gray-900 ">Placeholder Label</label>
-            <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="Placeholder Label" />
+        <label class=" my-2 text-sm font-medium text-gray-900 ">Customer Name</label>
+            <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="First and Last Name" />
         </div>
         <div class="flex flex-col basis-1/3 pb-10">
-        <label class=" my-2 text-sm font-medium text-gray-900 ">Placeholder Label</label>
-            <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="Placeholder Label" />
+        <label class=" my-2 text-sm font-medium text-gray-900 ">Address</label>
+            <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="Installation Address- House Number & Street Name" />
         </div>
 </div>
 
 <div class="md:flex md:gap-40 w-full">
     <div class="flex flex-col basis-1/3 pb-10">
-        <label class=" my-2 text-sm font-medium text-gray-900 ">Placeholder Label</label>
-        <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="Placeholder Label" />
+        <label class=" my-2 text-sm font-medium text-gray-900 ">City</label>
+        <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="City" />
     </div>
     <div class="flex flex-col basis-1/3 pb-10">
-        <label class=" my-2 text-sm font-medium text-gray-900 ">Placeholder Label</label>
-        <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="Placeholder Label" />
+        <label class=" my-2 text-sm font-medium text-gray-900 ">State</label>
+        <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="State" />
     </div>
 </div>
 
 <div class="md:flex md:gap-40 w-full">
     <div class="flex flex-col basis-1/3 pb-10">
-        <label class=" my-2 text-sm font-medium text-gray-900 ">Placeholder Label</label>
-        <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="Placeholder Label" />
+        <label class=" my-2 text-sm font-medium text-gray-900 ">County</label>
+        <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="County" />
     </div>
     <div class="flex flex-col basis-1/3 pb-10">
-        <label class=" my-2 text-sm font-medium text-gray-900 ">Placeholder Label</label>
-        <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="Placeholder Label" />
+        <label class=" my-2 text-sm font-medium text-gray-900 ">Zip Code</label>
+        <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="99999" />
     </div>
 </div>
     </form>
@@ -131,121 +125,227 @@
     <h1 class="md:text-3xl text-2xl font-bold text-left pb-15">Installer Info</h1>
     <div class="md:flex md:gap-40 w-full">
         <div class="flex flex-col basis-1/3 pb-10">
-            <label class=" my-2 text-sm font-medium text-white ">Placeholder Label</label>
-            <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="Placeholder Label" />
+            <label class=" my-2 text-sm font-medium text-white ">Installer Company Name</label>
+            <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="Company Name" />
         </div>
         <div class="flex flex-col basis-1/3 pb-10">
-            <label class=" my-2 text-sm font-medium text-white">Placeholder Label</label>
-            <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="Placeholder Label" />
+            <label class=" my-2 text-sm font-medium text-white">City</label>
+            <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="City" />
         </div>
     </div>
 
     <div class="md:flex md:gap-40 w-full">
         <div class="flex flex-col basis-1/3 pb-10">
-            <label class=" my-2 text-sm font-medium text-white ">Placeholder Label</label>
-            <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="Placeholder Label" />
+            <label class=" my-2 text-sm font-medium text-white ">State</label>
+            <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="State" />
         </div>
         <div class="flex flex-col basis-1/3 pb-10">
-            <label class=" my-2 text-sm font-medium text-white ">Placeholder Label</label>
-            <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="Placeholder Label" />
+            <label class=" my-2 text-sm font-medium text-white ">Zip Code</label>
+            <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="99999" />
         </div>
     </div>
 
     <div class="md:flex md:gap-40 w-full">
         <div class="flex flex-col basis-1/3 pb-10">
-            <label class=" my-2 text-sm font-medium text-white ">Placeholder Label</label>
-            <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="Placeholder Label" />
+            <label class=" my-2 text-sm font-medium text-white ">Phone Number</label>
+            <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="(999)999-9999" />
         </div>
         <div class="flex flex-col basis-1/3 pb-10">
-            <label class=" my-2 text-sm font-medium text-white ">Placeholder Label</label>
-            <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="Placeholder Label" />
+            <label class=" my-2 text-sm font-medium text-white ">Email</label>
+            <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="example@email.com" />
+        </div>
+        </div>
+
+    <div class="md:flex md:gap-40 w-full">
+        <div class="flex flex-col basis-1/3 pb-10">
+            <label class=" my-2 text-sm font-medium text-white ">License Number</label>
+            <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="XXXXXX" />
+        </div>
+        <div class="flex flex-col basis-1/3 pb-10">
+            <label class=" my-2 text-sm font-medium text-white ">License Type</label>
+            <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="ex: GB98, EE98, MM98, ER01" />
         </div>
     </div>
-    </form>
 </section>
 
-<section id="system-info-section" class="bg-white text-black px-20 py-10">
+<section id="installer-rep-info-section" class="bg-white text-black px-20 py-10">
+    <h1 class="md:text-3xl text-2xl font-bold text-left pb-15">Installer Representative Info</h1>
+    <div class="md:flex md:gap-40 w-full">
+        <div class="flex flex-col basis-1/3 pb-10">
+            <label class=" my-2 text-sm font-medium text-black ">Representative Name</label>
+            <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="First and Last Name" />
+        </div>
+        <div class="flex flex-col basis-1/3 pb-10">
+            <label class=" my-2 text-sm font-medium text-black ">Representative Address</label>
+            <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="House Number & Street Name" />
+        </div>
+    </div>
+
+    <div class="md:flex md:gap-40 w-full">
+        <div class="flex flex-col basis-1/3 pb-10">
+            <label class=" my-2 text-sm font-medium text-black ">City</label>
+            <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="City" />
+        </div>
+        <div class="flex flex-col basis-1/3 pb-10">
+            <label class=" my-2 text-sm font-medium text-black ">State</label>
+            <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="State" />
+        </div>
+    </div>
+
+    <div class="md:flex md:gap-40 w-full">
+        <div class="flex flex-col basis-1/3 pb-10">
+            <label class=" my-2 text-sm font-medium text-black ">Zip Code</label>
+            <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="99999" />
+        </div>
+        <div class="flex flex-col basis-1/3 pb-10">
+            <label class=" my-2 text-sm font-medium text-black ">Phone Number</label>
+            <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="(999)999-9999)" />
+        </div>
+    </div>
+
+    <div class="md:flex md:gap-40 w-full">
+        <div class="flex flex-col basis-1/3 pb-10">
+            <label class=" my-2 text-sm font-medium text-black ">Representative Email</label>
+            <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="example@email.com" />
+        </div>
+    </div>
+</section>
+
+<section id="system-info-section" class="bg-black text-white px-20 py-10">
     <h1 class="md:text-3xl text-2xl font-bold text-left pb-15">System Info</h1>
     <div class="md:flex md:gap-40 w-full">
         <div class="flex flex-col basis-1/3 pb-10">
-            <label class=" my-2 text-sm font-medium text-gray-900 ">Placeholder Label</label>
-            <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="Placeholder Label" />
+            <label class=" my-2 text-sm font-medium text-white ">Electrical Inspection Pass Date</label>
+            <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="MM/DD/YYYY" />
         </div>
         <div class="flex flex-col basis-1/3 pb-10">
-            <label class=" my-2 text-sm font-medium text-gray-900 ">Placeholder Label</label>
-            <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="Placeholder Label" />
+            <label class=" my-2 text-sm font-medium text-white ">System Size</label>
+            <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="DC kW, Rounded 2 decimals (99.99)" />
         </div>
     </div>
 
     <div class="md:flex md:gap-40 w-full">
         <div class="flex flex-col basis-1/3 pb-10">
-            <label class=" my-2 text-sm font-medium text-gray-900 ">Placeholder Label</label>
-            <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="Placeholder Label" />
+            <label class=" my-2 text-sm font-medium text-white ">Inverter Manufacturer</label>
+            <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="Inverter Manufacturer" />
         </div>
         <div class="flex flex-col basis-1/3 pb-10">
-            <label class=" my-2 text-sm font-medium text-gray-900 ">Placeholder Label</label>
-            <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="Placeholder Label" />
+            <label class=" my-2 text-sm font-medium text-white ">Inverter Size: Enter the size of individual micro-inverter OR size of string inverter</label>
+            <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="AC kW, Rounded 2 decimals" />
         </div>
     </div>
 
     <div class="md:flex md:gap-40 w-full">
         <div class="flex flex-col basis-1/3 pb-10">
-            <label class=" my-2 text-sm font-medium text-gray-900 ">Placeholder Label</label>
-            <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="Placeholder Label" />
+            <label class=" my-2 text-sm font-medium text-white ">Inverter Total Size</label>
+            <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="AC kW, Rounded 2 decimals" />
         </div>
         <div class="flex flex-col basis-1/3 pb-10">
-            <label class=" my-2 text-sm font-medium text-gray-900 ">Placeholder Label</label>
-            <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="Placeholder Label" />
+            <label class=" my-2 text-sm font-medium text-white ">Mount Type</label>
+            <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="Roof, Ground: Rack, or Ground: Pole" />
         </div>
     </div>
-    </form>
+
+    <div class="md:flex md:gap-40 w-full">
+        <div class="flex flex-col basis-1/3 pb-10">
+            <label class=" my-2 text-sm font-medium text-white ">Interconnect Utility</label>
+            <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="Name of Utility" />
+        </div>
+        <div class="flex flex-col basis-1/3 pb-10">
+            <label class=" my-2 text-sm font-medium text-white ">Module Tilt (if multiple, pick one)</label>
+            <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="Degrees, 999" />
+        </div>
+    </div>
+
+        <div class="md:flex md:gap-40 w-full">
+            <div class="flex flex-col basis-1/3 pb-10">
+                <label class=" my-2 text-sm font-medium text-white ">Azimuth Angle (if multiple, pick one)</label>
+                <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="Degrees, 999" />
+            </div>
+            <div class="flex flex-col basis-1/3 pb-10">
+                <label class=" my-2 text-sm font-medium text-white ">Module Manufacturer</label>
+                <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="Module Manufacturer" />
+            </div>
+        </div>
+
+        <div class="md:flex md:gap-40 w-full">
+            <div class="flex flex-col basis-1/3 pb-10">
+                <label class=" my-2 text-sm font-medium text-white ">Module Model Number</label>
+                <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="Module Model Number" />
+            </div>
+        <div class="flex flex-col basis-1/3 pb-10">
+            <label class=" my-2 text-sm font-medium text-white ">Module Quantity</label>
+            <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="Module Quantity" />
+        </div>
+    </div>
 </section>
 
-<section id="pricing-info-section" class="bg-black text-white px-20 py-10">
+<section id="pricing-info-section" class="bg-white text-black px-20 py-10">
     <h1 class="md:text-3xl text-2xl font-bold text-left pb-15">Pricing Info</h1>
     <div class="md:flex md:gap-40 w-full">
         <div class="flex flex-col basis-1/3 pb-10">
-            <label class=" my-2 text-sm font-medium text-white ">Placeholder Label</label>
-            <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="Placeholder Label" />
+            <label class=" my-2 text-sm font-medium text-black ">Cost Per Module</label>
+            <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="$0.00" />
         </div>
         <div class="flex flex-col basis-1/3 pb-10">
-            <label class=" my-2 text-sm font-medium text-white">Placeholder Label</label>
-            <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="Placeholder Label" />
+            <label class=" my-2 text-sm font-medium text-black">Modules Total Cost (cost per mod x number of mods)</label>
+            <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="$0.00" />
         </div>
     </div>
 
     <div class="md:flex md:gap-40 w-full">
         <div class="flex flex-col basis-1/3 pb-10">
-            <label class=" my-2 text-sm font-medium text-white ">Placeholder Label</label>
-            <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="Placeholder Label" />
+            <label class=" my-2 text-sm font-medium text-black">Other Materials Cost</label>
+            <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="$0.00" />
         </div>
         <div class="flex flex-col basis-1/3 pb-10">
-            <label class=" my-2 text-sm font-medium text-white ">Placeholder Label</label>
-            <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="Placeholder Label" />
+            <label class=" my-2 text-sm font-medium text-black ">Labor Cost</label>
+            <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="$0.00" />
         </div>
     </div>
 
     <div class="md:flex md:gap-40 w-full">
         <div class="flex flex-col basis-1/3 pb-10">
-            <label class=" my-2 text-sm font-medium text-white ">Placeholder Label</label>
-            <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="Placeholder Label" />
+            <label class=" my-2 text-sm font-medium text-black ">MPU Cost (if applicable, otherwise leave blank)</label>
+            <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="$0.00" />
         </div>
         <div class="flex flex-col basis-1/3 pb-10">
-            <label class=" my-2 text-sm font-medium text-white ">Placeholder Label</label>
-            <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="Placeholder Label" />
+            <label class=" my-2 text-sm font-medium text-black ">Roof Cost (if applicable and included in financing, otherwise leave blank)</label>
+            <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="$0.00" />
         </div>
     </div>
-    </form>
+
+    <div class="md:flex md:gap-40 w-full">
+        <div class="flex flex-col basis-1/3 pb-10">
+            <label class=" my-2 text-sm font-medium text-black">'Other' Costs (permitting + design fees + utility application)</label>
+            <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="$0.00" />
+        </div>
+        <div class="flex flex-col basis-1/3 pb-10">
+            <label class=" my-2 text-sm font-medium text-black ">PV System Total Cost (panels + other materials + labor + mpu)</label>
+            <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="$0.00" />
+        </div>
+    </div>
+
+    <div class="md:flex md:gap-40 w-full">
+        <div class="flex flex-col basis-1/3 pb-10">
+            <label class=" my-2 text-sm font-medium text-black">Disallowed Costs ('other costs' + roof) </label>
+            <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="$0.00" />
+        </div>
+        <div class="flex flex-col basis-1/3 pb-10">
+            <label class=" my-2 text-sm font-medium text-black ">Total Contract Amount</label>
+            <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="$0.00" />
+        </div>
+    </div>
 </section>
 
-<section id="buttons" class="bg-white p-10">
+<section id="buttons" class="bg-black p-10">
     <div class="flex justify-center">
-    <button class="relative inline-flex items-center justify-center p-2.5 mb-2 me-20 overflow-hidden text-xl font-bold text-gray-900 rounded-lg group bg-gradient-to-br from-black to-white group-hover:from-black group-hover:to-white hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-yellow-500 dark:focus:ring-yellow-500">
+    <button class="relative inline-flex items-center justify-center p-5 mb-2 me-20 overflow-hidden text-xl font-bold text-gray-900 rounded-lg group bg-gradient-to-br from-black to-white group-hover:from-black group-hover:to-white hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-yellow-500 dark:focus:ring-yellow-500">
 <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-transparent group-hover:dark:bg-transparent">
 Generate Documents
 </span>
     </button>
-    <button class="relative inline-flex items-center justify-center p-2.5 mb-2 me-2 overflow-hidden text-xl font-bold text-gray-900 rounded-lg group bg-gradient-to-br from-black to-white group-hover:from-black group-hover:to-white hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-yellow-500 dark:focus:ring-yellow-500">
+    <button class="relative inline-flex items-center justify-center p-5 mb-2 me-2 overflow-hidden text-xl font-bold text-gray-900 rounded-lg group bg-gradient-to-br from-black to-white group-hover:from-black group-hover:to-white hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-yellow-500 dark:focus:ring-yellow-500">
 <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-transparent group-hover:dark:bg-transparent">
 Download Documents
 </span>
@@ -254,31 +354,32 @@ Download Documents
 </section>
 
 <section id="next-steps-section" class="text-white p-30 relative w-full md:h-screen">
-    <div class="absolute inset-0 bg-cover bg-center" style="background-image: url(public/solar-panels.png);">
-        <div class="absolute inset-0 bg-gradient-to-b from-black/50 to-transparent"></div>
+    <div class="absolute inset-0 bg-cover bg-center" style="background-image: url(public/panels-house.png);">
+        <div class="absolute inset-0 bg-gradient-to-b from-black/70 to-transparent"></div>
     </div>
     <div class="relative z-10">
-    <h1 class="md:text-3xl text-2xl font-bold text-center">Next Steps</h1>
+    <h1 class="md:text-3xl text-2xl font-bold text-center pb-3">Next Steps For Your Customer</h1>
+    <p class="text-center max-md:text-sm p-3">Send the documents to your customer and let them know to complete the following steps. It is always best for your customer to consult a tax professional!</p>
 
-    <div class="md:flex md:gap-20 pt-60 md:px-5">
+    <div class="md:flex md:gap-20 md:pt-60 pt-25 md:px-5">
         <div class="flex flex-col items-center basis-1/3">
-            <p class="md:text-2xl text-xl font-bold text-center">Complete</p>
-            <p class="py-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p class="md:text-2xl text-xl font-bold text-center">Step 1</p>
+            <p class="pt-5 pb-10 text-xl">Go to the <a href="https://wwwapps.emnrd.nm.gov/ECMD/NSMDSubmissions" class="py-2 px-3 text-white hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-yellow-500 md:p-0">ECMD Submission Site</a> and click "apply," then follow the steps in the "Instructions" document.</p>
         </div>
         <div class="flex flex-col items-center basis-1/3">
-            <p class="md:text-2xl text-xl font-bold text-center">Generate</p>
-            <p class="py-5">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p class="md:text-2xl text-xl font-bold text-center">Step 2</p>
+            <p class="pt-5 pb-10 text-xl">Submit the form and all required documents. You should receive an email from ECMD confirming your submission. Keep an eye out for any communication from ECMD notifying you of further information needed.</p>
         </div>
         <div class="flex flex-col items-center basis-1/3">
             <p class="md:text-2xl text-xl font-bold text-center">Download and Send</p>
-            <p class="py-5">Duis aute irure dolor in reprehend in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <p class="pt-5 text-xl">Once your application is accepted, the state of NM will send you a certificate of eligibility which you can then submit with form TRD-41406 when you file your taxes in the Spring.</p>
         </div>
     </div>
     </div>
 </section>
 
 <section id="footer" class="bg-black text-white p-5">
-    <h1 class="text-center">Footer</h1>
+    <h1 class="text-center">made by: Amy Seibert</h1>
 </section>
 
 <script type="module" src="/src/main.js"></script>
