@@ -13,7 +13,7 @@
     </div>
     <nav class="relative z-10">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-end md:justify-center mx-auto p-4">
-            <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 text-sm text-white rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 " aria-controls="navbar-default" aria-expanded="false">
+            <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 text-sm text-white rounded-lg md:hidden hover:bg-yellow-500 focus:outline-none focus:ring-2 focus:text-yellow-500 " aria-controls="navbar-default" aria-expanded="false">
                 <span class="sr-only">Open main menu</span>
                 <svg class="w-5 h-5" aria-hidden="true" fill="none" viewBox="0 0 17 14">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
@@ -22,16 +22,16 @@
             <div class="hidden w-full md:block md:w-auto" id="navbar-default">
                 <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border md:flex-row justify-center md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 ">
                     <li>
-                        <a href="#welcome-section" class="block py-2 px-3 text-white hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-yellow-500 md:p-0">Home</a>
+                        <a href="#welcome-section" class="block py-2 px-3 text-white hover:bg-gray-100 md:hover:bg-transparent md:border-0 hover:text-yellow-500 focus:text-yellow-500 md:p-0">Home</a>
                     </li>
                     <li>
-                        <a href="#how-it-works-section" class="block py-2 px-3 text-white hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-yellow-500 md:p-0">How it Works</a>
+                        <a href="#how-it-works-section" class="block py-2 px-3 text-white hover:bg-gray-100 md:hover:bg-transparent md:border-0 hover:text-yellow-500 focus:text-yellow-500 md:p-0">How it Works</a>
                     </li>
                     <li>
-                        <a href="#create-docs-title-section" class="block py-2 px-3 text-white hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-yellow-500 md:p-0">Create Docs</a>
+                        <a href="#create-docs-title-section" class="block py-2 px-3 text-white hover:bg-gray-100 md:hover:bg-transparent md:border-0 hover:text-yellow-500 focus:text-yellow-500 md:p-0">Create Docs</a>
                     </li>
                     <li>
-                        <a href="#next-steps-section" class="block py-2 px-3 text-white hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-yellow-500 md:p-0">Next Steps</a>
+                        <a href="#next-steps-section" class="block py-2 px-3 text-white hover:bg-gray-100 md:hover:bg-transparent md:border-0 hover:text-yellow-500 focus:text-yellow-500 md:p-0">Next Steps</a>
                     </li>
                 </ul>
             </div>
@@ -40,38 +40,38 @@
 <div id="welcome-section" class="relative z-10 pt-15">
     <h1 class="md:text-4xl text-2xl text-center font-bold">Simplify Solar Tax Credit Docs</h1>
     <p class="text-center max-md:text-sm p-3">Complete, generate, and download state tax credit forms for your customers in minutes.</p>
-    <button onclick="location.href='#create-docs-title-section'" class="bg-white text-black px-10 py-4 block m-auto focus:ring-4 focus:ring-yellow-500 md:mt-95 mt-90 rounded-sm">Get Started!</button>
+    <button onclick="location.href='#create-docs-title-section'" class="bg-white text-black px-10 py-4 block m-auto focus:ring-4 focus:ring-yellow-500 hover:ring-4 hover:ring-yellow-500 md:mt-95 mt-90 rounded-sm">Get Started!</button>
 </div>
 </section>
 
-<section id="how-it-works-section" class="text-white p-30 relative w-full md:h-screen">
+<section id="how-it-works-section" class="text-white p-30 relative w-full md:h-[110vh]">
 <div class="absolute inset-0 bg-cover bg-center" style="background-image: url(public/laptop.png);">
     <div class="absolute inset-0 bg-gradient-to-b from-black/50 to-transparent"></div>
 </div>
 <div class="relative z-10">
     <h1 class="md:text-3xl text-2xl font-bold text-center">How it Works</h1>
 
-    <div class="md:flex md:gap-20 md:pt-60 pt-30 md:px-5">
+    <div class="md:flex md:gap-y-[10%] md:pt-60 pt-30 md:px-5">
         <div class="flex flex-col items-center basis-1/3 md:pb-0 pb-20">
             <div class="pb-5 justify-items-center">
               <img class="rounded-full w-2/3" src="/pen.png" alt="Pen" />
             </div>
               <p class="md:text-2xl text-xl font-bold text-center">Complete</p>
-              <p class="py-5 text-lg">Enter information about your customer and their installed system into our simple form fields.</p>
+              <p class="py-5 text-lg md:w-5/6">Enter information about your customer and their installed system into our simple form fields.</p>
         </div>
         <div class="flex flex-col items-center basis-1/3 md:pb-0 pb-20">
             <div class="pb-5 justify-items-center">
               <img class="rounded-full w-2/3" src="/document.png" alt="Document" />
             </div>
             <p class="md:text-2xl text-xl font-bold text-center">Generate</p>
-            <p class="py-5 text-lg">Our system instantly uses that information to fill out the required documents for the NM State Solar Tax Credit, including instructions for your customer on how to submit them.</p>
+            <p class="py-5 text-lg md:w-5/6">Our system instantly uses that information to fill out the required documents for the NM State Solar Tax Credit, including instructions for your customer on how to submit them.</p>
         </div>
         <div class="flex flex-col items-center basis-1/3">
             <div class="pb-5 justify-items-center">
                 <img class="rounded-full w-2/3" src="/send-doc.png" alt="Send" />
             </div>
             <p class="md:text-2xl text-xl font-bold text-center">Download and Send</p>
-            <p class="py-5 text-lg">Download the completed forms and send them to your customer, ready to submit!</p>
+            <p class="py-5 text-lg md:w-5/6">Download the completed forms and send them to your customer, ready to submit!</p>
         </div>
     </div>
 </div>
@@ -338,12 +338,12 @@
 
 <section id="buttons" class="bg-black p-10">
     <div class="flex justify-center">
-    <button class="relative inline-flex items-center justify-center p-2.5 mb-2 me-20 overflow-hidden text-xl font-bold text-gray-900 rounded-lg group bg-gradient-to-br from-black to-white group-hover:from-black group-hover:to-white hover:text-white focus:ring-4 focus:outline-none focus:ring-yellow-500 ">
+    <button class="relative inline-flex items-center justify-center p-2.5 mb-2 me-20 overflow-hidden text-xl font-bold text-gray-900 rounded-lg group bg-gradient-to-br from-black to-white group-hover:from-black group-hover:to-white hover:text-white focus:ring-4 focus:outline-none focus:ring-yellow-500 hover:ring-yellow-500 hover:ring-4">
 <span class="relative px-5 py-4.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-transparent group-hover:dark:bg-transparent">
 Generate Documents
 </span>
     </button>
-    <button class="relative inline-flex items-center justify-center p-2.5 mb-2 me-2 overflow-hidden text-xl font-bold text-gray-900 rounded-lg group bg-gradient-to-br from-black to-white group-hover:from-black group-hover:to-white hover:text-white focus:ring-4 focus:outline-none focus:ring-yellow-500">
+    <button class="relative inline-flex items-center justify-center p-2.5 mb-2 me-2 overflow-hidden text-xl font-bold text-gray-900 rounded-lg group bg-gradient-to-br from-black to-white group-hover:from-black group-hover:to-white hover:text-white focus:ring-4 focus:outline-none focus:ring-yellow-500 hover:ring-yellow-500 hover:ring-4">
 <span class="relative px-5 py-4.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-transparent group-hover:dark:bg-transparent">
 Download Documents
 </span>
@@ -351,7 +351,7 @@ Download Documents
     </div>
 </section>
 
-<section id="next-steps-section" class="text-white p-30 relative w-full md:h-screen">
+<section id="next-steps-section" class="text-white p-30 relative w-full md:gap-y-[20%]">
     <div class="absolute inset-0 bg-cover bg-center" style="background-image: url(public/panels-house.png);">
         <div class="absolute inset-0 bg-gradient-to-b from-black/70 to-transparent"></div>
     </div>
@@ -362,15 +362,15 @@ Download Documents
     <div class="md:flex md:gap-20 md:pt-60 pt-25 md:px-5">
         <div class="flex flex-col items-center basis-1/3">
             <p class="md:text-2xl text-xl font-bold text-center">Step 1</p>
-            <p class="pt-5 pb-10 text-xl">Go to the <a href="https://wwwapps.emnrd.nm.gov/ECMD/NSMDSubmissions" class="py-2 px-3 text-gray-200 md:hover:bg-transparent md:border-0 md:hover:text-yellow-500  md:p-0"><strong>ECMD Submission Site</strong></a> and click "apply," then follow the steps in the "Instructions" document.</p>
+            <p class="pt-5 pb-10 text-xl md:w-6/5">Go to the <a href="https://wwwapps.emnrd.nm.gov/ECMD/NSMDSubmissions" class="py-2 px-3 text-gray-200 md:hover:bg-transparent md:border-0 md:hover:text-yellow-500 md:p-0"><strong>ECMD Submission Site</strong></a> and click "apply," then follow the steps in the "Instructions" document.</p>
         </div>
         <div class="flex flex-col items-center basis-1/3">
             <p class="md:text-2xl text-xl font-bold text-center">Step 2</p>
-            <p class="pt-5 pb-10 text-xl">Submit the form and all required documents. You should receive an email from ECMD confirming your submission. Keep an eye out for any communication from ECMD notifying you of further information needed.</p>
+            <p class="pt-5 pb-10 text-xl md:w-6/5">Submit the form and all required documents. You should receive an email from ECMD confirming your submission. Keep an eye out for any communication from ECMD notifying you of further information needed.</p>
         </div>
         <div class="flex flex-col items-center basis-1/3">
             <p class="md:text-2xl text-xl font-bold text-center">Download and Send</p>
-            <p class="pt-5 text-xl">Once your application is accepted, the state of NM will send you a certificate of eligibility which you can then submit with form TRD-41406 when you file your taxes in the Spring.</p>
+            <p class="pt-5 text-xl md:w-6/5">Once your application is accepted, the state of NM will send you a certificate of eligibility which you can then submit with form TRD-41406 when you file your taxes in the Spring.</p>
         </div>
     </div>
     </div>
