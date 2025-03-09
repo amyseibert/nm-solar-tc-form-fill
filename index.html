@@ -83,7 +83,7 @@
 
 <section id="customer-info-section" class="bg-white text-black px-20 py-10">
     <h1 class="md:text-3xl text-2xl font-bold text-left pb-10">Customer Info</h1>
-    <form class="">
+
 <div class="md:flex md:gap-40 w-full">
         <div class="flex flex-col basis-1/3 pb-10">
         <label class=" my-2 text-sm font-medium text-gray-900 ">Customer Name</label>
@@ -116,7 +116,6 @@
         <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="99999" />
     </div>
 </div>
-    </form>
 </section>
 
 <section id="installer-info-section" class="bg-black text-white px-20 py-10">
@@ -124,22 +123,22 @@
     <div class="md:flex md:gap-40 w-full">
         <div class="flex flex-col basis-1/3 pb-10">
             <label class=" my-2 text-sm font-medium text-white ">Installer Company Name</label>
-            <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="Company Name" />
+            <input type="text" id="installerCompanyName" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="Company Name" />
         </div>
         <div class="flex flex-col basis-1/3 pb-10">
             <label class=" my-2 text-sm font-medium text-white">City</label>
-            <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="City" />
+            <input type="text" id="installerCity"  class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="City" />
         </div>
     </div>
 
     <div class="md:flex md:gap-40 w-full">
         <div class="flex flex-col basis-1/3 pb-10">
             <label class=" my-2 text-sm font-medium text-white ">State</label>
-            <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="State" />
+            <input type="text" id="installerState" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="State" />
         </div>
         <div class="flex flex-col basis-1/3 pb-10">
             <label class=" my-2 text-sm font-medium text-white ">Zip Code</label>
-            <input type="text" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="99999" />
+            <input type="text" id="installerZip" class="bg-gray-50 border border-gray-500 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 ps-2 p-2.5" placeholder="99999" />
         </div>
     </div>
 
@@ -338,14 +337,9 @@
 
 <section id="buttons" class="bg-black p-10">
     <div class="flex justify-center">
-    <button class="relative inline-flex items-center justify-center p-2.5 mb-2 me-20 overflow-hidden text-xl font-bold text-gray-900 rounded-lg group bg-gradient-to-br from-black to-white group-hover:from-black group-hover:to-white hover:text-white focus:ring-4 focus:outline-none focus:ring-yellow-500 hover:ring-yellow-500 hover:ring-4">
+    <button id="generatePDF" class="relative inline-flex items-center justify-center p-2.5 mb-2 me-20 overflow-hidden text-xl font-bold text-gray-900 rounded-lg group bg-gradient-to-br from-black to-white group-hover:from-black group-hover:to-white hover:text-white focus:ring-4 focus:outline-none focus:ring-yellow-500 hover:ring-yellow-500 hover:ring-4">
 <span class="relative px-5 py-4.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-transparent group-hover:dark:bg-transparent">
-Generate Documents
-</span>
-    </button>
-    <button class="relative inline-flex items-center justify-center p-2.5 mb-2 me-2 overflow-hidden text-xl font-bold text-gray-900 rounded-lg group bg-gradient-to-br from-black to-white group-hover:from-black group-hover:to-white hover:text-white focus:ring-4 focus:outline-none focus:ring-yellow-500 hover:ring-yellow-500 hover:ring-4">
-<span class="relative px-5 py-4.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-transparent group-hover:dark:bg-transparent">
-Download Documents
+Generate and Download Documents
 </span>
     </button>
     </div>
