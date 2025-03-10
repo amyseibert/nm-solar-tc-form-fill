@@ -4,7 +4,7 @@ import {z} from 'zod'
 import { PDFDocument } from 'pdf-lib';
 
 document.getElementById('generatePDF').addEventListener('click', async () => {
-    // Step 1: Collect user data from the form
+    //Collect data from the form input
     const formData = {
         //customer info section
         customerName: document.getElementById('customer-name').value,
@@ -64,7 +64,7 @@ document.getElementById('generatePDF').addEventListener('click', async () => {
 
     };
 
-    // Step 2: Load the PDF template
+    // Load the PDF template
     const pdfBytes1 = await fetch('/pdf-templates/other-costs-invoice-template.pdf').then(res => res.arrayBuffer());
     const pdfDoc1 = await PDFDocument.load(pdfBytes1);
 
@@ -73,6 +73,8 @@ document.getElementById('generatePDF').addEventListener('click', async () => {
 
     const pdfBytes3 = await fetch('/pdf-templates/instructions-template.pdf').then(res => res.arrayBuffer());
     const pdfDoc3 = await PDFDocument.load(pdfBytes3);
+
+    const PdfBytes4 = await fetch('/pdf-templates/trd-41406.pdf').then(res => res.arrayBuffer());
 
     // Fill in form 1 fields
     const fillForm1Fields = (form, formData) => {
@@ -172,12 +174,12 @@ document.getElementById('generatePDF').addEventListener('click', async () => {
     fillForm3Fields(form3, formData);
 
 
-    // Step 4: Save the updated PDF
+    //Save updated PDF
     const filledPdfBytes1 = await pdfDoc1.save();
     const filledPdfBytes2 = await pdfDoc2.save();
     const filledPdfBytes3 = await pdfDoc3.save();
 
-    // Step 5: Trigger the download
+    //Trigger the download
     const blob = new Blob([filledPdfBytes1], { type: 'application/pdf' });
     const link1 = document.createElement('a');
     link1.href = URL.createObjectURL(blob);
@@ -195,5 +197,12 @@ document.getElementById('generatePDF').addEventListener('click', async () => {
     link3.href = URL.createObjectURL(blob3);
     link3.download = `Instructions_${formData.customerName}.pdf`;
     link3.click();
+
+    const blob4 = new Blob([PdfBytes4], { type: 'application/pdf' });
+    const link4 = document.createElement('a');
+    link4.href = URL.createObjectURL(blob4);
+    link4.download = `TRD_41406_State.pdf`;
+    link4.click();
+
 });
 
