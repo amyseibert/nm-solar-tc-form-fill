@@ -25,4 +25,4 @@ jobs:
       - name: Deploy to server
         run: |
           ssh-keyscan -H solarformhelper.com >> ~/.ssh/known_hosts 
-          scp -r ./dist/* gkephart@solarformhelper.com:/var/www/solarformhelper.com/html
+          scp -r ./dist/* aseibert1@solarformhelper.com:/var/www/solarformhelper.com/html
