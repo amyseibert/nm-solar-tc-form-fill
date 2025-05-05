@@ -189,7 +189,7 @@ document.getElementById('generatePDF').addEventListener('click', async () => {
     const blob2 = new Blob([filledPdfBytes2], { type: 'application/pdf' });
     const link2 = document.createElement('a');
     link2.href = URL.createObjectURL(blob2);
-    link2.download = `Contactor_Invoice_${formData.customerName}.pdf`;
+    link2.download = `Contractor_Invoice_${formData.customerName}.pdf`;
     link2.click();
 
     const blob3 = new Blob([filledPdfBytes3], { type: 'application/pdf' });
