@@ -42,6 +42,9 @@ document.getElementById('generatePDF').addEventListener('click', async () => {
         inverterManufacturer: document.getElementById('inverter-manufacturer').value,
         inverterSize: document.getElementById('inverter-size').value,
         totalInverterSize: document.getElementById('total-inverter-size').value,
+        batteryTotalSize: document.getElementById('battery-total-size').value,
+        batteryKwh: document.getElementById('battery-Kwh').value,
+        batteryModelNumber: document.getElementById('battery-model-number').value,
         mountType: document.getElementById('mount-type').value,
         interconnectUtility: document.getElementById('interconnect-utility').value,
         moduleTilt: document.getElementById('module-tilt').value,
@@ -57,6 +60,10 @@ document.getElementById('generatePDF').addEventListener('click', async () => {
         laborCost: document.getElementById('labor-cost').value,
         mpuCost: document.getElementById('mpu-cost').value,
         roofCost: document.getElementById('roof-cost').value,
+        batteryYN: document.getElementById('battery-YN').value,
+        batteryQuantity: document.getElementById('battery-quantity').value,
+        costPerBattery: document.getElementById('cost-per-battery').value,
+        batteryTotalCost: document.getElementById('battery-total-cost').value,
         otherCosts: document.getElementById('other-costs').value,
         totalSystemCost: document.getElementById('total-system-cost').value,
         disallowedCosts: document.getElementById('disallowed-costs').value,
@@ -90,6 +97,8 @@ document.getElementById('generatePDF').addEventListener('click', async () => {
         form.getTextField('installerState').setText(formData.installerState);
         form.getTextField('installerZip').setText(formData.installerZip);
 
+        form.getTextField('electricalInspPassDate').setText(formData.electricalInspPassDate);
+
         form.getTextField('totalSystemCost').setText(formData.totalSystemCost);
         form.getTextField('disallowedCosts').setText(formData.disallowedCosts);
         form.getTextField('totalContractAmount').setText(formData.totalContractAmount);
@@ -109,11 +118,18 @@ document.getElementById('generatePDF').addEventListener('click', async () => {
         form.getTextField('installerState').setText(formData.installerState);
         form.getTextField('installerZip').setText(formData.installerZip);
 
+        form.getTextField('electricalInspPassDate').setText(formData.electricalInspPassDate);
+
         form.getTextField('moduleManufacturer').setText(formData.moduleManufacturer);
         form.getTextField('moduleModelNumber').setText(formData.moduleModelNumber);
         form.getTextField('moduleQuantity').setText(formData.moduleQuantity);
 
+        form.getTextField('batteryQuantity').setText(formData.batteryQuantity);
+        form.getTextField('batteryModelNumber').setText(formData.batteryModelNumber);
+
         form.getTextField('costPerModule').setText(formData.costPerModule);
+        form.getTextField('costPerBattery').setText(formData.costPerBattery);
+        form.getTextField('batteryTotalCost').setText(formData.batteryTotalCost);
         form.getTextField('modulesTotalCost').setText(formData.modulesTotalCost);
         form.getTextField('otherCosts').setText(formData.otherCosts);
         form.getTextField('laborCost').setText(formData.laborCost);
@@ -162,6 +178,13 @@ document.getElementById('generatePDF').addEventListener('click', async () => {
         form.getTextField('totalSystemCost').setText(formData.totalSystemCost);
         form.getTextField('disallowedCosts').setText(formData.disallowedCosts);
         form.getTextField('totalContractAmount').setText(formData.totalContractAmount);
+
+        form.getTextField('batteryYN').setText(formData.batteryYN);
+        form.getTextField('batteryTotalSize').setText(formData.batteryTotalSize);
+        form.getTextField('batteryKwh').setText(formData.batteryKwh);
+        form.getTextField('batteryModelNumber').setText(formData.batteryModelNumber);
+        form.getTextField('batteryQuantity').setText(formData.batteryQuantity);
+        form.getTextField('costPerBattery').setText(formData.costPerBattery);
     }
 
     const form1 = pdfDoc1.getForm();
