@@ -120,7 +120,6 @@ document.getElementById('generatePDF').addEventListener('click', async () => {
 
         form.getTextField('electricalInspPassDate').setText(formData.electricalInspPassDate);
 
-        form.getTextField('moduleManufacturer').setText(formData.moduleManufacturer);
         form.getTextField('moduleModelNumber').setText(formData.moduleModelNumber);
         form.getTextField('moduleQuantity').setText(formData.moduleQuantity);
 
