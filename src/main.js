@@ -1,6 +1,5 @@
 import './index.css'
 import 'flowbite'
-import {z} from 'zod'
 import { PDFDocument } from 'pdf-lib';
 
 document.getElementById('generatePDF').addEventListener('click', async () => {
