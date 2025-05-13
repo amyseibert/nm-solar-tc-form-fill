@@ -60,7 +60,7 @@ document.getElementById('generatePDF').addEventListener('click', async () => {
         laborCost: document.getElementById('labor-cost').value,
         mpuCost: document.getElementById('mpu-cost').value,
         roofCost: document.getElementById('roof-cost').value,
-        batteryYN: document.getElementById('battery-YN').value,
+        batteryYN: document.getElementById('battery-yn').value,
         batteryQuantity: document.getElementById('battery-quantity').value,
         costPerBattery: document.getElementById('cost-per-battery').value,
         batteryTotalCost: document.getElementById('battery-total-cost').value,
