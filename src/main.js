@@ -63,7 +63,7 @@ document.getElementById('generatePDF').addEventListener('click', async () => {
         batteryYN: document.getElementById('battery-yn').value,
         batteryQuantity: document.getElementById('battery-quantity').value,
         costPerBattery: document.getElementById('cost-per-battery').value,
-        batteryTotalCost: document.getElementById('battery-total-cost').value,
+        batteryTotalCost: document.getElementById('total-battery-cost').value,
         otherCosts: document.getElementById('other-costs').value,
         totalSystemCost: document.getElementById('total-system-cost').value,
         disallowedCosts: document.getElementById('disallowed-costs').value,
